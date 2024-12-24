@@ -16,8 +16,8 @@ class JooqConfig {
     fun jdbcDslContext(configuration: org.jooq.Configuration): DSLContext =
         DSL.using(configuration.set(Executors.newVirtualThreadPerTaskExecutor()))
 
-    @Bean
-    @Profile("r2dbc")
-    fun r2dbcDslContext(connectionFactory: ConnectionFactory): DSLContext =
-        DSL.using(connectionFactory)
+//    @Bean
+//    @Profile("r2dbc")
+//    fun r2dbcDslContext(connectionFactory: ConnectionFactory): DSLContext =
+//        DSL.using(connectionFactory)
 }
