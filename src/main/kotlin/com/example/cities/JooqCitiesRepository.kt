@@ -1,5 +1,6 @@
-package com.example
+package com.example.cities
 
+import com.example.jooq.JooqExecutor
 import org.jooq.DSLContext
 import org.jooq.generated.Tables.CITY
 import org.jooq.impl.DSL

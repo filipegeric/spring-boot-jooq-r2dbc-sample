@@ -1,4 +1,4 @@
-package com.example
+package com.example.jooq
 
 import kotlinx.coroutines.future.await
 import org.jooq.Record

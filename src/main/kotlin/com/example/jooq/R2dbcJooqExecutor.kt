@@ -1,4 +1,4 @@
-package com.example
+package com.example.jooq
 
 import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.reactive.asFlow

@@ -1,4 +1,4 @@
-package com.example
+package com.example.jooq
 
 import org.jooq.Record
 import org.jooq.ResultQuery
