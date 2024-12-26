@@ -2,9 +2,9 @@ CREATE SCHEMA IF NOT EXISTS "list-it";
 CREATE TABLE IF NOT EXISTS "list-it"."city" (
     "id" SERIAL PRIMARY KEY,
     "name" VARCHAR(100) NOT NULL,
-    "country_id" INTEGER NOT NULL,
-    "is_capital" BOOLEAN NOT NULL,
-    "population" INTEGER
+    "country_id" INTEGER DEFAULT NULL,
+    "is_capital" BOOLEAN DEFAULT NULL,
+    "population" INTEGER DEFAULT 0
 );
 
 
