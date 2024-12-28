@@ -32,6 +32,9 @@ dependencies {
     runtimeOnly("org.postgresql:r2dbc-postgresql")
     jooqCodegen("org.postgresql:postgresql")
 
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    runtimeOnly("io.micrometer:micrometer-registry-prometheus")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
